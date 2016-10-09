@@ -4,7 +4,7 @@ var DEV_DIR = path.resolve(__dirname, 'src');
 var BUILD_DIR = path.resolve(__dirname, 'dist');
 
 var config = {
-    entry: DEV_DIR + '/main.js',
+    entry: DEV_DIR + '/js/main.js',
     output: {
         path: BUILD_DIR + '/js/',
         filename: 'bundle.js',

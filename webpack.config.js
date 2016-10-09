@@ -6,7 +6,9 @@ var BUILD_DIR = path.resolve(__dirname, 'dist');
 var config = {
     entry: DEV_DIR + '/main.js',
     output: {
-        filename: BUILD_DIR + '/bundle.js'
+        path: BUILD_DIR + '/js/',
+        filename: 'bundle.js',
+        publicPath: '/js/'
     },
     module: {
         loaders: [

@@ -12,7 +12,6 @@ var config = {
     },
     devServer : {
         contentBase: './src',
-        hot: true,
         historyApiFallback: true
     },
     module: {
